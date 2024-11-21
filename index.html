@@ -10,5 +10,26 @@
 			Jonny: jsr2 at andrew.cmu.edu
 		</p>
         <a href="https://docs.google.com/document/d/1Y98woCuUrC_qoTkJjFk4hpJvpEyZ8hTdDIBBG82ymaY/edit?usp=sharing">Proposal</a>
-	</body>
+        <h1>Milestone Report</h1>
+        <a href="https://docs.google.com/document/d/1m_gbllK5C4dGHcAAzBzglG0GLT67z0xk-1yw6M7Eshk/edit?tab=t.0">Milestone Report</a>
+        <p>
+            Below we show the LLVM code of three different programs, compiled with -O0 and sent through a mem2reg pass, before and after sending it through the SLP transformation pass.
+        </p>
+        <h2>"simple.bc"</h2>
+        <p>Before:</p>
+        <img src="simple_before.PNG" />
+        <p>After:</p>
+        <img src="simple_after.PNG" />
+        <h2>"arrless.bc"</h2>
+        <p>(The name is a bit of a misnomer. The code was changed slightly since creation.)</p>
+        <p>Before:</p>
+        <img src="arrless_before.PNG" />
+        <p>After:</p>
+        <img src="arrless_after.PNG" />
+        <h2>"no-mem-ref.bc"</h2>
+        <p>Before:</p>
+        <img src="no-mem-ref_before.PNG" />
+        <p>After:</p>
+        <img src="no-mem-ref_after.PNG" />
+    </body>
 </html>
